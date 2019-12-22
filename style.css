@@ -1,0 +1,319 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINERS */
+
+.mainbody {
+	margin: 140px 0 0 0;
+}
+
+.containerright {
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.containerright p {
+	color: black;
+}
+
+.containerbulletpointleft {
+    margin: 0 0 0 12px;
+}
+	
+.containerbulletpointright {
+	margin: 10px 0 10px 0;
+	text-align: left;
+}
+	
+.containerbulletpointright p {
+	margin: 5px 0 0 0;
+    text-align: left;
+    color: black;
+    padding: 0;
+}
+		
+.referenceleft {
+	margin: 5px 0 50px 50px;
+}
+	
+.referenceright {
+	margin: 5px 0 50px 0;
+}
+
+.text {
+	margin: 50px 0 0 0;
+}
+
+p {
+    color: white;
+	padding: 30px;
+}
+	
+.text p {
+    color: white;
+    padding: 30px;
+}
+
+.reference p {
+    color: black;
+    padding: 0;
+}
+
+.hobbies {
+	margin: 20px;
+	text-align: center;
+}
+	
+.hobbies img {
+	width: 80px;
+	margin: 5px;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.experience {
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-3 {
+    margin: 0;
+    padding: 0;
+    background: #e1c1c6;
+}
+
+.col-md-12 {
+    margin: 0;
+    padding: 0;
+    background: #e1c1c6;
+}
+
+.col-sm-12 {
+    margin: 0;
+    padding: 0;
+    background: #e1c1c6;
+}
+
+.col-xs-12 {
+    margin: 0;
+    padding: 0;
+    background: #e1c1c6;
+}
+
+.col-md-12 {
+    margin: 0;
+    padding: 0;
+    background: #e1c1c6;
+}
+
+.col-sm-12 {
+    margin: 0;
+    padding: 0;
+    background: #e1c1c6;
+}
+
+.col-xs-12 {
+    margin: 0;
+    padding: 0;
+    background: #e1c1c6;
+}
+
+.col-lg-9 {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.containerleft {
+	background: #e1c1c6;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADERS */
+
+h1 {
+	font-family: Avenir;
+	font-weight: thin;
+	background: none;
+	float: left;
+	padding: 100px 0 0 50px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.lightpink{
+	color: #e1c1c6;
+}
+
+h2 {
+	background: none;
+	padding: 50px 0 0 50px;
+	margin: 0;
+	text-align: left;
+}
+
+.title h2 {
+    color: gray;
+    padding: 150px 0 0 50px;
+}
+
+h3 {
+	background: white;
+	color: #e1c1c6; 
+	padding: 20px;
+	font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+.containerleft h3 {
+	text-transform: uppercase;
+    align-content: center;
+    max-width: 450px;
+	margin: 0 auto;
+}
+
+.mainbody h3 {
+    color: black;
+    margin: 5px 0 0 0;
+    text-align: left;
+    padding: 0px;
+}
+
+.headerexperience h2{
+    left: 20px;
+}
+
+hr {
+	background: #e1c1c6;
+	border: none;
+	padding: 1px;
+	text-align: left;
+}
+
+h4 {
+    margin: 5px 0 0 0;
+    font-family: Avenir;
+}
+
+h5 {
+	margin: 5px 0 5px 0;
+}
+
+/* LINKS */
+
+a:hover {
+	color: lightblue;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+/* LISTS */
+
+ul {
+    margin: 5px 0 10px 14px;
+    color: #e1c1c6;
+    //text: black;  
+}
+
+ul li.list-item {
+    list-style-image: url(../img/icon.png);
+    color: black;
+}
+
+span {
+    color: black;
+}
+
+/* IMAGES */
+    
+.rounded {
+    text-align: center;
+    align-content: center;
+    margin: 100px 0 0 0;
+}
+    
+.rounded img{
+    width: 200px;
+    top: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid white;
+    text-align: center;
+}
+
+.headereducation img {
+    width: 60px;
+    height: 30px;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+.headerexperience img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
+}
+
+.headerreferences img {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+
+/* RESPONSIVE RULES */
+
+@media screen and (max-width: 991px) {
+    
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+	.referenceright {
+		margin: 5px 0 50px 50px;
+	}
+
+	.containerbulletpointright {
+		margin: 5px 0 0 50px;
+		text-align: left;
+    }
+
+    .text p {
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+
+    ul li::before {
+        color: none;
+        font-size: 0;
+        list-style: none;
+    }
+
+    .containerbulletpointleft {
+        margin: 0 0 0 -13px;
+    }
+
+    ul {
+        margin: 5px 0 10px 40px;
+        color: #e1c1c6;
+        //text: black;  
+    }
+}
